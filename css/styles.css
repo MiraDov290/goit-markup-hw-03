@@ -234,6 +234,10 @@ button {
 
 }
 
+.hero-list {
+    display: flex;
+    align-items: center;
+}
 
 .main-button {
     font-size: 56px;
@@ -261,15 +265,6 @@ button {
     background-color: var(--modal-color);
 }
 
-.hero-list-container {
-width: 1158px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;
-display: flex;
-align-items: center;
-}
 
 .our-list {
     width: 1158px;
@@ -284,7 +279,7 @@ align-items: center;
     margin-right: 24px;
 }
 
-.team-our-container {
+.team-our {
     width: 1158px;
     display: flex;
         align-items: center;
