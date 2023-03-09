@@ -234,10 +234,6 @@ button {
 
 }
 
-.hero-list {
-    display: flex;
-    align-items: center;
-}
 
 .main-button {
     font-size: 56px;
@@ -273,6 +269,7 @@ button {
     align-items: center;
 
     padding-bottom: 120px;
+        
 }
 
 .emplo-our-item:not(:last-child) {
@@ -280,15 +277,14 @@ button {
 }
 
 .team-our {
-    width: 1158px;
-    display: flex;
-        align-items: center;
-        justify-content: space-between;
+    padding-bottom: 120px;
 }
 
 .our-list {
     display: flex;
+    align-items: center;
 justify-content: space-between;
+flex-wrap: wrap;
 
 }
 
