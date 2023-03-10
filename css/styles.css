@@ -67,6 +67,19 @@ button {
     outline: 2px solid #7000FF;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* HEADER */
 
 .page-heade {
@@ -298,7 +311,7 @@ gap: 24px;
 
 
 .our-images {
-flex-basis: calc((100%-48px / 3));
+flex-basis: calc (100%-48px / 3);
 }
 .our-images {
     margin-bottom: 32px;
@@ -374,7 +387,7 @@ margin-bottom: 72px;
 }
 
 .activity-servise {
-    width: 1158;
+    width: 1158px;
 background-color: #E7E9FC;
 margin-bottom: 48px;
 }
@@ -425,7 +438,7 @@ margin-bottom: 48px;
 
 .footer-container {
     width: 1128px;
-    margin-top: ;
+    margin-top:
 }
 
 .logo-footer {
