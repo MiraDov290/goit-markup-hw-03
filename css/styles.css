@@ -51,7 +51,7 @@ button {
 
     list-style: none;
 }
-
+/* CORNFLOWER */
 .container {
     width: 1158px;
     margin-left: auto;
@@ -177,6 +177,25 @@ button {
     background-color: var(--modal-color);
 }
 
+.hero-list-container {
+    width: 1158px;
+}
+
+.main-button {
+    width: 496px;
+    margin-top: 188;
+    margin-bottom: 48px;
+    margin-left: 400px;
+    margin-right: 400px;
+
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+}
+
 .modal-bth {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -191,25 +210,38 @@ button {
 
 .modal-bth {
     display: block;
+    border: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    background-color: transparent;
     width: 169px;
     height: 56px;
-
-
-    padding: 16px, 32px, 16px, 32px;
+    background-color: transparent;
+    align-items: center;
     
-    margin-top: 48px;
+    margin-top: 48;
     margin-bottom: 188px;
-    margin-left: 635px;
-    margin-right: 636px;
+    margin-left: 563px;
+    margin-right: 564px;
 
-    text-align: center;
+    padding: 16px,32px,16px,32px;
 }
 
 .modal-bth:hover,
 .modal-bth:focus {
     background-color: var(--pressed-state);
+}
+
+
+.bth-container {
+    display: flex;
+    
+    width: 580px;
+    height: 48px;
+    margin-bottom: 72px;
+}
+
+.main-name-bth {
+    display: flex;
+    align-items: center;
 }
 
 .modal-bth-tu {
@@ -231,45 +263,26 @@ button {
 }
 
 .modal-bth-tu {
-
+display: block;
+background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    height: 48px;
+    background-color: transparent;
+    padding: 12px 24px;
 }
 
-
-.main-button {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    color: #ffffff;
-}
-
-.main-button {
-    width: 700px;
-    margin-top: 188px;
-    margin-bottom: 48px;
-    margin-left: 472px;
-    margin-right: 472px;
-    text-align: center;
+.modal-bth-tu:not(:last-child) {
+    margin-right: 24px;
 }
 
 .hero-list {
-    display: flex;
-        align-items: center;
-        margin-bottom: 120px;
-    
     background-color: var(--modal-color);
 }
 
-
-.our-list {
-    width: 1158px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding-bottom: 120px;
-        
+.text-our-container {
+width: 1128px;
+margin-bottom: 120px;
 }
 
 .emplo-our-item:not(:last-child) {
@@ -277,24 +290,30 @@ button {
 }
 
 .team-our {
-    padding-bottom: 120px;
+    margin-bottom: 120px;
 }
 
 .our-list {
-    display: flex;
-    align-items: center;
-justify-content: space-between;
-flex-wrap: wrap;
-
+display: flex;
 }
 
 .our-images:not(:last-child) {
-    margin-right: 24px;
+    margin-right: 24px; 
+}
+
+.our-images {
+    margin-bottom: 32px;
+}
+
+
+.employee-container {
+    width: 1158px;
+
+    background-color: #F4F4FD;
 }
 
 .hero-our {
 margin-bottom: 72px;
-
 
     font-size: 36px;
     line-height: 1.11;
@@ -314,12 +333,44 @@ margin-bottom: 72px;
     color: var(--modal-color);
 }
 
+.hero-person {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+
+.emplo-person {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
 .text-going {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
     color: var(--text-color);
+}
+
+
+.card {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+
+}
+
+.cards {
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
+
+.activity-servise {
+    width: 1158;
+background-color: #E7E9FC;
+margin-bottom: 48px;
 }
 
 .main-secty {
@@ -332,6 +383,9 @@ margin-bottom: 72px;
 }
 
 .media-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -356,4 +410,21 @@ margin-bottom: 72px;
 
 .conclusion-portfolio {
     background-color: #2E2F42;
+}
+
+.footer-container {
+    width: 1128px;
+    margin-top: ;
+}
+
+.logo-footer {
+    margin-top: 100px;
+    margin-bottom: 16px;
+
+}
+
+.conclusion {
+    width: 264px;
+    margin-top: 16px;
+    margin-bottom: 100px;
 }
