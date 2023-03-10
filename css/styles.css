@@ -7,8 +7,7 @@
     --pressed-state: #404BBF;
     --element-gap:24px;
 }
-
-*{
+* {
     box-sizing: border-box;
 }
 
