@@ -3,6 +3,7 @@
     --modal-color: #2e2f42;
     --mains-color: #ffffff;
     --text-color: #434455;
+    --text-footer: #E7E9FC;
     --bth-color:#F4F4FD;
     --pressed-state: #404BBF;
     --element-gap:24px;
@@ -14,8 +15,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
-    color: #434455;
+    background-color: var(--mains-color);
+    color: var(--text-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -39,7 +40,7 @@ ul {
 img {
     display: block;
     max-width: 100%;
-        height: auto;
+    height: auto;
 }
 
 address {
@@ -105,28 +106,28 @@ button {
     align-items: center;
 }
 
+.links {
+    color: var(--modal-color);
+}
+
 .logo {
+    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
     color: var(--blue-color);
-}
-
-.links {
-    color: var(--modal-color);
 }
 
 .logo:hover,
 .logo:focus {
-    color: #2E2F42;
+    color: var(--modal-color);
 }
 
 .logo-links {
-    color: #f4f4fd;
+    color: var(--bth-color);
 }
 
 .menu-list,
@@ -137,7 +138,6 @@ button {
 .menu-list {
     display: flex;
     align-items: center;
-    gap: 40px;
 }
 
 .menu-item:not(:last-child) {
@@ -155,7 +155,7 @@ button {
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #404bbf;
+    color: var(--pressed-state);
 }
 
 .address-list {
@@ -183,7 +183,7 @@ button {
 
 .contact-mailto:hover,
 .contact-mailto:focus {
-    color: #404bbf;
+    color: var(--pressed-state);
 }
 
 /* HERO-LIST */
@@ -206,7 +206,7 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
 
-    color: #ffffff;
+    color: var(--mains-color);
 }
 
 .modal-bth {
@@ -220,11 +220,10 @@ button {
     letter-spacing: 0.04em;
     cursor: pointer;
 
-    background-color: var(--bth-color);
-    color: #FFFFFF;
+    background-color: var(--blue-color);
+    color: var(--mains-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    background-color: transparent;
     align-items: center;
 }
 
@@ -263,14 +262,13 @@ button {
     background-color: var(--bth-color);
     color: var(--blue-color);
     border: 1px solid #E7E9FC;
-    background-color: transparent;
 }
 
 .modal-bth-tu:hover,
 .modal-bth-tu:focus {
-    color: #FFFFFF;
+    color: var(--mains-color);
     background-color: var(--pressed-state);
-    border-color: #404bbf;
+    border-color: var(--pressed-state);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);  
 }
 
@@ -303,7 +301,7 @@ button {
 .our-images-going {
     width: calc((100% - var(--element-gap) * 3) / 4);
 
-    background: #FFFFFF;
+    background: var(--mains-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     border: 1px solid #e7e9fc;
@@ -374,7 +372,7 @@ button {
 
 .cards {
     margin-top: 7px;
-    color: #434455;
+    color: var(--text-color);
 }
 
 .team-our-going {
@@ -385,7 +383,7 @@ button {
     padding-top: 120px;
     padding-bottom: 120px;
     
-    background-color: #f4f4fd;
+    background-color: var(--bth-color);
 }
 
 .hero-our {
@@ -413,18 +411,28 @@ button {
 .conclusion-portfolio {
     padding-top: 102px;
     padding-bottom: 100px;
-    background-color: #2E2F42;
+    background-color: var(--modal-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--blue-color);
 }
 
 .conclusion {
     width: 264px;
-    margin-top: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    color: #E7E9FC;
+    color: var(--text-footer);
 }
+
 
 
