@@ -337,13 +337,12 @@ button {
 
 .hero-person {
     text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    
-        color: rgba(46, 47, 66, 0.4);
+    color: rgba(46, 47, 66, 0.4);
     }
 
 .emplo-person {
@@ -384,9 +383,9 @@ button {
 
 .team-our-employee {
     padding-top: 120px;
-        padding-bottom: 120px;
+    padding-bottom: 120px;
     
-        background-color: #f4f4fd;
+    background-color: #f4f4fd;
 }
 
 .hero-our {
