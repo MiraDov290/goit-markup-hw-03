@@ -84,9 +84,8 @@ button {
 /* HEADER */
 
 .page-heade {
+    border: bottom;
     text-align: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .page-heade-container {
@@ -111,6 +110,9 @@ button {
 }
 
 .logo {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -145,6 +147,8 @@ button {
 }
 
 .menu-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -224,7 +228,7 @@ button {
     color: var(--mains-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    align-items: center;
+    border: none;
 }
 
 .modal-bth:hover,
@@ -354,11 +358,6 @@ button {
     margin-top: 72px;
     column-gap: var(--element-gap);
     row-gap: calc(var(--element-gap) * 2);
-
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
     list-style: none;
 
     color: var(--modal-color);
@@ -414,7 +413,9 @@ button {
     background-color: var(--modal-color);
 }
 
-.logo {
+.logo-footer {
+    margin-right: 0px;
+    margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -423,9 +424,9 @@ button {
     text-transform: uppercase;
     color: var(--blue-color);
 }
-
 .conclusion {
     width: 264px;
+    margin-top: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
